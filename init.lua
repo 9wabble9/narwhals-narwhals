@@ -3,4 +3,9 @@ require("config.lazy")
 
 require("lualine").setup()
 require("mason").setup()
+
 vim.opt.showmode = false
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
+vim.opt.expandtab = true
